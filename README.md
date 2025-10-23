@@ -1,4 +1,4 @@
-<img width="865" height="72" alt="图片" src="https://github.com/user-attachments/assets/c17fce8b-83ab-4272-8822-f48d966dca23" /><img width="348" height="240" alt="图片" src="https://github.com/user-attachments/assets/7cad09ff-cc49-46df-a1fd-57eda04c8d3e" /><img width="420" height="368" alt="图片" src="https://github.com/user-attachments/assets/4e9561c0-a902-4aa1-961b-8349b36b2d91" />### 科研管理系统
+### 科研管理系统
 *虽然过去了很长时间，但本发布仍然献给当时的软件工程课任课教师，也是本课设课的任课教师，根据学校的传言，在这门课结束后不久本课的教师因癌症去世了，按照时间倒推可能教导我们的时候是带病任教。*  
 *也谨以此告诫各位同僚，身体健康永远第一位。*
 #### 原仓库地址  
