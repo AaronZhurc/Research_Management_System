@@ -1,0 +1,2744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>591</width>
+    <height>446</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget_main">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>591</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_basic">
+     <attribute name="title">
+      <string>基础信息管理</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>591</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_self">
+       <attribute name="title">
+        <string>个人信息管理</string>
+       </attribute>
+       <widget class="QLineEdit" name="lineEdit_self_password">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>70</y>
+          <width>113</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_38">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>40</y>
+          <width>41</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>用户名</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_39">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>70</y>
+          <width>41</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>新密码</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_40">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>100</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>请再输入一次</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_self_password_2">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>100</y>
+          <width>113</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_53">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>130</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>权限等级</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_54">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>190</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>院系</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_self_school">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>190</y>
+          <width>111</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <item>
+         <property name="text">
+          <string>null</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>中国语言文学系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>历史学系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>哲学系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>政治学系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>法学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>马克思主义学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>社会发展学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>外语学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>国际汉语文化学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>教育信息技术学系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>心理与认知科学学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>特殊教育学系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>教育康复学系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>体育与健康学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>传播学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>美术学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>音乐学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>设计学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>数学科学学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>物理与电子科学学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>化学与分子工程学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>地理科学学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>生态与环境科学学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>城市与区域科学学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>生命科学学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>计算机科学与技术学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>通信与电子工程学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>国际关系与地区发展研究院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>河口海岸科学研究院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>精密光谱科学与技术国家重点实验室</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>教育专业学位管理中心</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>教育学部</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>教育管理学系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>经济与管理学部专业学位教育中心</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>经济学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>工商管理学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>公共管理学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>统计学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>软件工程学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>教师教育学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>数据科学与工程学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>亚欧商学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>教育心理学系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>物理与电子科学学院电子科学系</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLabel" name="label_55">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>220</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>职位</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_self_position">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>220</y>
+          <width>111</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <item>
+         <property name="text">
+          <string>null</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>本科在读</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>硕士在读</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>博士在读</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>讲师</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>副教授</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>教授</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QPushButton" name="pushButton_self_update">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>270</y>
+          <width>71</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>更新修改</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_self_level">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>130</y>
+          <width>111</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>在此处显示</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_self_name">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>160</y>
+          <width>113</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Normal</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_41">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>160</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>姓名</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_self_username">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>40</y>
+          <width>111</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>在此处显示</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_users">
+       <attribute name="title">
+        <string>用户查看</string>
+       </attribute>
+       <widget class="QTableWidget" name="tableWidget_users">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>241</width>
+          <height>281</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <column>
+         <property name="text">
+          <string>用户名</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>密码</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>权限等级</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>220</y>
+          <width>201</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="title">
+         <string>表操作</string>
+        </property>
+        <widget class="QPushButton" name="pushButton_user_del">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>50</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>删除用户</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_user_xls">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>50</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>导出到xls</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_user_reflesh">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>刷新表</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_user_mod">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>20</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>更新修改</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>20</y>
+          <width>201</width>
+          <height>171</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="title">
+         <string>新建用户</string>
+        </property>
+        <widget class="QLabel" name="label_19">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>110</y>
+           <width>71</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>权限等级</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_16">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>用户名</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_user_create">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>140</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>创建用户</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_18">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>71</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>请再输入一次</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_user_password_2">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>80</y>
+           <width>113</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBox_user_authority">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>110</y>
+           <width>111</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <item>
+          <property name="text">
+           <string>0级(用户)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1级(管理员)</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_user_username">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>20</y>
+           <width>113</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_17">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>50</y>
+           <width>41</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>密码</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_user_password">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>50</y>
+           <width>113</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_proj">
+     <attribute name="title">
+      <string>横向项目管理</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>591</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_projview">
+       <attribute name="title">
+        <string>项目一览</string>
+       </attribute>
+       <widget class="QTableWidget" name="tableWidget_proj">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>491</width>
+          <height>361</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>项目名称</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>项目序号</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>项目类型</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>项目经费</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>项目开始年月</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>项目截止年月</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>委托单位</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>合同编号</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>合同经费</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>设备经费</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>合同开始年月</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>合同截止年月</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>负责人姓名</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>负责人编号</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>负责人部门</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>项目简介</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>项目完成情况简介</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_del">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>10</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>删除该行</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_xls">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>70</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>打印到xls</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_mod">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>40</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>更新修改</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_reflesh">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>100</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>刷新列表</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_projadd">
+       <attribute name="title">
+        <string>添加项目</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>221</width>
+          <height>171</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>项目基本情况</string>
+        </property>
+        <widget class="QLabel" name="label_20">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>项目名称</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_proj_name">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>20</y>
+           <width>151</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_21">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>项目类型</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBox_proj_type">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>80</y>
+           <width>151</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text">
+           <string>技术开发</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>技术转让</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>技术咨询</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>技术服务</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>其他</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="label_22">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>110</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>项目经费</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_proj_fund">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>110</y>
+           <width>151</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_23">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>50</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>项目序号</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_proj_id">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>50</y>
+           <width>151</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_24">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>140</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>起止年月</string>
+         </property>
+        </widget>
+        <widget class="QDateEdit" name="dateEdit_proj_end">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>140</y>
+           <width>61</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QDateEdit" name="dateEdit_proj_start">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>140</y>
+           <width>61</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_25">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>140</y>
+           <width>21</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>至</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_6">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>10</y>
+          <width>221</width>
+          <height>171</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>合同情况</string>
+        </property>
+        <widget class="QLabel" name="label_29">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>委托单位</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_proj_contdep">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>20</y>
+           <width>151</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_30">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>50</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>合同编号</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_31">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>合同经费</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_proj_contfund">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>80</y>
+           <width>151</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_32">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>140</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>起止年月</string>
+         </property>
+        </widget>
+        <widget class="QDateEdit" name="dateEdit_proj_contstart">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>140</y>
+           <width>61</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QDateEdit" name="dateEdit_proj_contend">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>140</y>
+           <width>61</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_33">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>140</y>
+           <width>21</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>至</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_proj_contid">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>50</y>
+           <width>151</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_34">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>110</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>设备经费</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_proj_equipfund">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>110</y>
+           <width>151</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_35">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>190</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>项目简介</string>
+        </property>
+       </widget>
+       <widget class="QTextEdit" name="textEdit_proj_intro">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>210</y>
+          <width>151</width>
+          <height>111</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_36">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>190</y>
+          <width>91</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>项目完成情况简介</string>
+        </property>
+       </widget>
+       <widget class="QTextEdit" name="textEdit_proj_happen">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>210</y>
+          <width>151</width>
+          <height>111</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_addpay">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>20</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>添加到款信息</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_addpar">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>60</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>添加参与者信息</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_add">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>100</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>添加项目</string>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>210</y>
+          <width>221</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>负责人情况</string>
+        </property>
+        <widget class="QLabel" name="label_46">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>51</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>负责人姓名</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_proj_prinname">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>20</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_47">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>51</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>负责人院系</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_49">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>50</y>
+           <width>51</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>负责人编号</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_proj_prinid">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>50</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBox_proj_prinsch">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>80</y>
+           <width>141</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text">
+           <string>中国语言文学系</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>历史学系</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>哲学系</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>政治学系</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>法学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>马克思主义学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>社会发展学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>外语学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>国际汉语文化学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>教育信息技术学系</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>心理与认知科学学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>特殊教育学系</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>教育康复学系</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>体育与健康学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>传播学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>美术学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>音乐学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>设计学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>数学科学学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>物理与电子科学学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>化学与分子工程学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>地理科学学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>生态与环境科学学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>城市与区域科学学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>生命科学学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>计算机科学与技术学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>通信与电子工程学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>国际关系与地区发展研究院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>河口海岸科学研究院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>精密光谱科学与技术国家重点实验室</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>教育专业学位管理中心</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>教育学部</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>教育管理学系</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>经济与管理学部专业学位教育中心</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>经济学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>工商管理学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>公共管理学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>统计学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>软件工程学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>教师教育学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>数据科学与工程学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>亚欧商学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>教育心理学系</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>物理与电子科学学院电子科学系</string>
+          </property>
+         </item>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_payment">
+       <attribute name="title">
+        <string>到款信息</string>
+       </attribute>
+       <widget class="QTableWidget" name="tableWidget_proj_payment">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>481</width>
+          <height>321</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>到款金额</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>到款日期</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QLabel" name="label_28">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>41</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>项目序号</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_proj_idpay">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>10</y>
+          <width>111</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_paysearch">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>10</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>搜索</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_payadd">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>40</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>添加一行</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_payxls">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>130</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>打印到xls</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_paydel">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>100</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>删除该行</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_paymod">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>70</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>更新修改</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_payreflesh">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>160</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>刷新列表</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_participant">
+       <attribute name="title">
+        <string>参与者信息</string>
+       </attribute>
+       <widget class="QTableWidget" name="tableWidget_proj_part">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>481</width>
+          <height>321</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>参与者姓名</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>参与者院系</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_partadd">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>40</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>添加一行</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_partxls">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>130</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>打印到xls</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_37">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>41</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>项目序号</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_proj_idpart">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>10</y>
+          <width>111</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_partsearch">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>10</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>搜索</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_partdel">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>100</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>删除该行</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_partmod">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>70</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>更新修改</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_proj_partreflesh">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>160</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>刷新列表</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_paper">
+     <attribute name="title">
+      <string>论文管理</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>591</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_paperview">
+       <attribute name="title">
+        <string>项目一览</string>
+       </attribute>
+       <widget class="QTableWidget" name="tableWidget_paper">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>491</width>
+          <height>361</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>中文题名</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>论文类型</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>学科门类</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>完成日期</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>中文关键词</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>分类号</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>作者姓名</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>作者编号</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>作者院系</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>中文摘要</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QPushButton" name="pushButton_paper_xls">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>70</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>打印到xls</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_paper_del">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>10</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>删除该行</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_paper_mod">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>40</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>更新修改</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_paper_reflesh">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>100</y>
+          <width>56</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>刷新列表</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_paperadd">
+       <attribute name="title">
+        <string>添加论文</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButton_paper_add">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>20</y>
+          <width>81</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>添加项目</string>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_9">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>10</y>
+          <width>221</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>作者情况</string>
+        </property>
+        <widget class="QLabel" name="label_50">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>51</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>作者姓名</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_paper_authname">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>20</y>
+           <width>151</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_51">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>51</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>作者院系</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBox_paper_authsch">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>80</y>
+           <width>151</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text">
+           <string>中国语言文学系</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>历史学系</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>哲学系</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>政治学系</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>法学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>马克思主义学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>社会发展学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>外语学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>国际汉语文化学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>教育信息技术学系</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>心理与认知科学学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>特殊教育学系</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>教育康复学系</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>体育与健康学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>传播学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>美术学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>音乐学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>设计学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>数学科学学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>物理与电子科学学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>化学与分子工程学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>地理科学学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>生态与环境科学学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>城市与区域科学学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>生命科学学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>计算机科学与技术学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>通信与电子工程学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>国际关系与地区发展研究院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>河口海岸科学研究院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>精密光谱科学与技术国家重点实验室</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>教育专业学位管理中心</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>教育学部</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>教育管理学系</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>经济与管理学部专业学位教育中心</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>经济学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>工商管理学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>公共管理学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>统计学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>软件工程学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>教师教育学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>数据科学与工程学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>亚欧商学院</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>教育心理学系</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>物理与电子科学学院电子科学系</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="label_64">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>50</y>
+           <width>51</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>作者编号</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_paper_authid">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>50</y>
+           <width>151</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QTextEdit" name="textEdit_paper_summary">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>160</y>
+          <width>221</width>
+          <height>151</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_71">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>140</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>中文摘要</string>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_19">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>221</width>
+          <height>201</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>基本信息</string>
+        </property>
+        <widget class="QLineEdit" name="lineEdit_paper_typeid">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>170</y>
+           <width>151</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_26">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>中文题名</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_65">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>110</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>完成日期</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_paper_key">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>140</y>
+           <width>151</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_73">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>学科门类</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_120">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>50</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>论文类型</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_paper_title">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>20</y>
+           <width>151</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_27">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>170</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>分类号</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBox_paper_subj">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>80</y>
+           <width>151</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text">
+           <string>哲学</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>经济学</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>法学</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>教育学</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>文学</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>历史学</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>理学</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>工学</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>农学</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>医学</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>军事学</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>管理学</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QComboBox" name="comboBox_paper_type">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>50</y>
+           <width>151</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text">
+           <string>学士学位论文</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>硕士学位论文</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>博士学位论文</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>科研论文</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QDateEdit" name="dateEdit_paper_fin">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>110</y>
+           <width>151</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_66">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>140</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>中文关键词</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>591</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
